@@ -1,6 +1,6 @@
 [build]
   publish = "publish"
-  command = "cp src publish"
+  command = "cp -r src publish"
 
 [[redirects]]
   from = "*?p=452*"
