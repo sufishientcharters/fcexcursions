@@ -3,8 +3,9 @@
   command = "cp -R src publish"
 
 [[redirects]]
-  from = "*?p=452*"
+  from = "/*"
   to = "/contact-2/index.html"
+  query = {p = "452"}
 
 [[redirects]]
   from = "*?p=511*"
