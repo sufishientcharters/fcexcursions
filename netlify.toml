@@ -2,42 +2,5 @@
   publish = "publish"
   command = "cp -R src publish"
 
-[[redirects]]
-  from = "*?p=452*"
-  to = "/contact-2/index.html"
-
-[[redirects]]
-  from = "*?p=511*"
-  to = "/planning/index.html"
-
-[[redirects]]
-  from = "*?p=515*"
-  to = "/excursion-ideas/index.html"
-
-[[redirects]]
-  from = "*?p=522*"
-  to = "/the-crew/index.html"
-
-[[redirects]]
-  from = "*?p=535*"
-  to = "/links/index.html"
-
-[[redirects]]
-  from = "*?p=543*"
-  to = "/photo-gallery/index.html"
-
-[[redirects]]
-  from = "*?p=634*"
-  to = "/the-yacht/index.html"
-
-[[redirects]]
-  from = "*?p=638*"
-  to = "/powerboat-handling-instructions/index.html"
-
-[[redirects]]
-  from = "*?p=665*"
-  to = "/rates/index.html"
-
-[[redirects]]
-  from = "*?p=670*"
-  to = "/directions/index.html"
+[[plugins]]
+package = "@netlify/plugin-sitemap"
