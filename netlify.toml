@@ -10,6 +10,5 @@ package = "@netlify/plugin-sitemap"
   trailingSlash = true
 
 [[redirects]]
-from = "/contact-2"
-to = "/contact"
-force = false
+from = "/contact-2/*"
+to = "/contact/:splat"
